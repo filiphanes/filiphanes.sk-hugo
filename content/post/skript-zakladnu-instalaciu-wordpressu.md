@@ -3,7 +3,7 @@ date = "2016-10-14T20:45:36+01:00"
 title = "Skript na základnú inštaláciu wordpressu"
 categories = ["web-dev"]
 tags = ["php","wordpress","bash","web","development"]
-comments = false
+comments = true
 description = ""
 url = "/web-dev/skript-zakladnu-instalaciu-wordpressu/"
 

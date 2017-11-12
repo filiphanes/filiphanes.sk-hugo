@@ -5,7 +5,7 @@ description = ""
 image = "/img/acoustic-absorber-header.jpg"
 categories = ["audio-video"]
 tags = ["audio","odhlucnenie","analyza","hardware"]
-comments = false
+comments = true
 url = "audio-video/porovnanie-materialov-akusticke-tlmenie/"
 
 +++

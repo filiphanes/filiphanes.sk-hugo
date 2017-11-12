@@ -1,7 +1,7 @@
 +++
 date = "2016-10-12T21:05:42+01:00"
 title = "Ako som zefektívnil pravidelné spracovanie nahrávok"
-comments = false
+comments = true
 description = ""
 categories = ["audio-video"]
 tags = ["audio","mp3","encoding","audacity","software"]

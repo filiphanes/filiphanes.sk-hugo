@@ -6,7 +6,7 @@ theme = "startbootstrap-clean-blog"
 languageCode = "sk-sk"
 copyright = "© 2017 Filip Hanes"
 googleAnalytics = "UA-67252886-2" # delete or comment to disable Google Analytics JS generation
-disqusShortname = "YourDisqusShortname" #delete or comment to disable Disqus comments
+disqusShortname = "filiphanes-sk" #delete or comment to disable Disqus comments
 
 [author]
   name = "Filip Hanes"
@@ -23,8 +23,8 @@ disqusShortname = "YourDisqusShortname" #delete or comment to disable Disqus com
   title = "github"
   url = "https://github.com/filiphanes"
 [[params.social]]
-  title = "facebook"
-  url = "https://www.facebook.com/fhanes1"
+  title = "linkedin"
+  url = "https://www.linkedin.com/in/filip-hanes-b965b183/"
 
 [[menu.main]]
   name = "Domov"
