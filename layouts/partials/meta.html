@@ -1,0 +1,6 @@
+{{ dateFormat .Site.Params.DateForm .Date }},
+{{ partial "categories.html" .}}
+{{ partial "tags.html" .}},
+{{ if .Site.Params.ShowReadTime }}
+  {{ .ReadingTime }} min čítania,
+{{ end }}

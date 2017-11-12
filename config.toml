@@ -1,0 +1,40 @@
+baseurl = "https://filiphanes.sk/"
+title = "Filip Hanes"
+canonifyurls = true
+paginate = 10
+theme = "startbootstrap-clean-blog"
+languageCode = "sk-sk"
+copyright = "© 2017 Filip Hanes"
+googleAnalytics = "UA-67252886-2" # delete or comment to disable Google Analytics JS generation
+disqusShortname = "YourDisqusShortname" #delete or comment to disable Disqus comments
+
+[author]
+  name = "Filip Hanes"
+
+[params]
+  DateForm = "2.1.2006"
+  Description = "Osobná stránka"
+  Author = "Filip Hanes"
+  email = "filip.hanes@gmail.com" #Remove this line if you would prefer not to use an email button in the footer.
+  postSummariesFrontPage = 20 #Number of post summaries to show on front page, comment out to allow default(4)
+  showReadTime = true #set to false to exclude read time from header of post
+
+[[params.social]]
+  title = "github"
+  url = "https://github.com/filiphanes"
+[[params.social]]
+  title = "facebook"
+  url = "https://www.facebook.com/fhanes1"
+
+[[menu.main]]
+  name = "Domov"
+  url = "/"
+  weight = -200
+[[menu.main]]
+  name = "Projekty"
+  url = "/projekty/"
+  weight = -180
+[[menu.main]]
+  name = "Kontakt"
+  url = "/kontakt/"
+  weight = -150
