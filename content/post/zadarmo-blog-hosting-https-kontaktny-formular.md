@@ -1,5 +1,4 @@
 +++
-draft = true
 date = "2017-11-12T18:55:28+01:00"
 title = "Zadarmo blog s hostingom s https a kontaktným formulárom"
 description = ""
