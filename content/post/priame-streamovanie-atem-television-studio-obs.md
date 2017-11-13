@@ -1,6 +1,6 @@
 +++
 date = "2017-11-13T17:17:49+01:00"
-tags = [ "video", "streaming", "obs","atem"]
+tags = [ "video", "streaming", "obs","atem","youtube"]
 categories = [ "audio-video"]
 title = "Priame streamovanie z ATEM Television Studio cez OBS"
 description = ""
@@ -16,7 +16,7 @@ comments = true
 
 [MXPTiny](https://ianmorrish.wordpress.com/tag/mxptiny/), ktorý je zadarmo vie nahrávať stream z ATEM TVS na disk, ale nevie streamovať.
 
-[OBS](https://obsproject.com) aj [Wirecast](https://www.telestream.net/wirecast/overview.htm) dokáže prehrávať vstup z Decklink karty, ale ani jeden nedokáže naberať video z ATEM TVS nie.
+[OBS](https://obsproject.com) aj [Wirecast](https://www.telestream.net/wirecast/overview.htm) dokáže prehrávať vstup z Decklink karty, ale ani jeden nedokáže naberať video z ATEM TVS.
 
 Kombináciou MXPTiny, [VLC](https://www.videolan.org) a [OBS](https://obsproject.com) však vieme zabezpečiť streamovanie videa/audia aj s prikladaním titulkov, lowerthirds  a púšťaním ďalších videí a vôbec softvérovým strihaním.
 
