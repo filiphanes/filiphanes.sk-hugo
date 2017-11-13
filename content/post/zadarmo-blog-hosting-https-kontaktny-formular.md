@@ -3,7 +3,7 @@ date = "2017-11-12T18:55:28+01:00"
 title = "Zadarmo blog s hostingom s https a kontaktným formulárom"
 description = ""
 categories = ["Web-dev"]
-tags = ["static","hugo","https","blog"]
+tags = ["static","hugo","blog","web","development"]
 url = "/web-dev/zadarmo-blog-hosting-https-kontakty-formular/"
 comments = true
 +++
@@ -26,10 +26,10 @@ Umožňuje:
  - zbieranie dát z formulárov na stránkach, takže môžem mať formulár na statickej stránke a keď niektorý návštevník vyplní a odošle, príde mi email so všetkými údajmi.
  - upraviť blog z hocikadiaľ, kde mám prístup na github, pretože sa automaticky deployne
 
-Takže nepotrebujem inštalovať Wordpress, zháňať a platiť hostingy s PHP, MySQL alebo riešiť reklamu na freehostingoch alebo riešiť rozbehávanie webservera na VPS. Mám statický blog, ktorý môžem kedykoľvek presunúť kde chcem a upraviť si html témy ako chcem a navyše je rýchly, tak že rýchlejší už ani byť nemôže (možno).
+Takže nepotrebujem inštalovať Wordpress, zháňať a platiť hostingy s PHP, MySQL alebo riešiť reklamu na freehostingoch alebo riešiť rozbehávanie webservera na VPS. Mám statický blog, ktorý môžem kedykoľvek presunúť kde chcem a upraviť si html témy ako chcem a navyše je rýchly, tak že rýchlejší už ani byť nemôže (možno). [Tu je benchmark](https://testmysite.io/5a09dc29a6188f3a4df535d6/filiphanes.sk)
 
 Odkazy:
 
  - Návod na používanie kompilátora statických stránok hugo: https://gohugo.io/getting-started/usage/
  - Návod na rozbehanie hostingu na netlify https://gohugo.io/hosting-and-deployment/hosting-on-netlify/
- - Zdrojový repozitár tejto stránkyhttps://github.com/filiphanes/filiphanes.sk-hugo
+ - Zdrojový repozitár tejto stránky https://github.com/filiphanes/filiphanes.sk-hugo
