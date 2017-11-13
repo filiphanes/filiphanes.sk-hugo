@@ -17,7 +17,7 @@ PU pena sa využíva aj na pyramídkové penové platne.
 
 http://www.plasticsportal.net/wa/plasticsEU~en_GB/portal/show/content/products/foams/basotect_properties
 
-![basotect physical](/wp-content/uploads/2016/10/basotect-physical.gif "Copyright 2001 – 2016 BASF SE)
+![basotect physical](/wp-content/uploads/2016/10/basotect-physical.gif)
 
 
 ## Akustická sklená/minerálna vata
