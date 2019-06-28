@@ -2,9 +2,10 @@ baseurl = "https://filiphanes.sk/"
 title = "Filip Hanes"
 canonifyurls = true
 paginate = 10
-theme = "startbootstrap-clean-blog"
+#theme = "startbootstrap-clean-blog"
+DefaultContentLanguage = "sk"
 languageCode = "sk-sk"
-copyright = "© 2017 Filip Hanes"
+copyright = "© 2017-2019 Filip Hanes"
 googleAnalytics = "UA-67252886-2" # delete or comment to disable Google Analytics JS generation
 disqusShortname = "filiphanes-sk" #delete or comment to disable Disqus comments
 
@@ -15,7 +16,7 @@ disqusShortname = "filiphanes-sk" #delete or comment to disable Disqus comments
   DateForm = "2.1.2006"
   Description = "Osobná stránka"
   Author = "Filip Hanes"
-  email = "filip.hanes@gmail.com" #Remove this line if you would prefer not to use an email button in the footer.
+  email = "filip.hanes@pm.me" #Remove this line if you would prefer not to use an email button in the footer.
   postSummariesFrontPage = 20 #Number of post summaries to show on front page, comment out to allow default(4)
   showReadTime = true #set to false to exclude read time from header of post
 
@@ -29,12 +30,12 @@ disqusShortname = "filiphanes-sk" #delete or comment to disable Disqus comments
 [[menu.main]]
   name = "Domov"
   url = "/"
-  weight = -200
+  weight = 1
 [[menu.main]]
   name = "Projekty"
   url = "/projekty/"
-  weight = -180
+  weight = 10
 [[menu.main]]
   name = "Kontakt"
   url = "/kontakt/"
-  weight = -150
+  weight = 20

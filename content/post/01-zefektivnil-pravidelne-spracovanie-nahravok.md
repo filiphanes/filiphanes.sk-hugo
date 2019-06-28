@@ -21,4 +21,3 @@ Pri tomto procese je veľa stále rovnakej práce pri kopírovaní wav nahrávky
 
 GoodSync synchronizácia sa dá nastaviť jednosmerne, tak aby nahrávalo iba nové súbory na internet a nesťahovalo milión ďalších na lokálny disk.
 Dá sa nastaviť aj to, aby nezačal nahrávať hneď po vytvorení súboru, lebo aj Audacity trvá zopár minút, kým mp3 nahrávku vyexportuje.
-
