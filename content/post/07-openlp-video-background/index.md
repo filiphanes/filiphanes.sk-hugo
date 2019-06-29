@@ -1,12 +1,11 @@
 +++
-date = "2019-06-30T21:30:00+02:00"
+date = "2019-05-30T21:30:00+02:00"
 title = "OpenLP video background"
 comments = true
 description = ""
 categories = ["audio-video"]
 tags = ["openlp", "obs", "video"]
 url = "audio-video/openlp-video-background/"
-image = "img/streaming.jpg"
 
 +++
 Na zobrazovanie textov piesní používame [OpenLP](https://openlp.org/) program, ktorý má však už niekoľko verzií problém prekrývať video pozadie prehrávané cez VLC pod ním. Najnovšie riešenie si pomohlo programom [OBS Studio](https://obsproject.com/), ktorý už používame na nahrávanie a live streaming.
