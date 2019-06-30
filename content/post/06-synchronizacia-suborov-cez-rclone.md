@@ -20,8 +20,17 @@ Takže, keď z nahrávacieho počítača vytvorí zvukár nahrávku, uloží ju 
 Na serveri bežia crony, ktoré pravidelne synchronizujú priečinok s nahrávkami na google disk. Tieto crony spúšťajú nástroj [rclone](https://rclone.org/drive/). Zatiaľ rclone neposkytuje obojsmernú synchronizáciu ako goodsync, takže, aby som predišiel premazávaniu súborov nahratých cez webové rozhranie google disku, synchronizácia prebieha príkazom [rclone copy](https://rclone.org/commands/rclone_copy/) a [rclone sync](https://rclone.org/commands/rclone_sync/). Takto sa nestane, že by sa súbor automaticky premazal.
 
     # Najprv sa spúšťa
-    rclone copy remote:/nahravky /mnt/disk/moj@gmail.com/nahravky
+    rclone sync /mnt/disk/moj@gmail.com/audio remote:/audio
     # a potom
-    rclone sync /mnt/disk/moj@gmail.com/nahravky remote:/nahravky
+    rclone copy remote:/audio /mnt/disk/moj@gmail.com/audio
+
+Takto vyzerá crontab:
+
+    # crontab -e
+    # zalohovanie z cloudu na lokalny disk
+    0 8 * * 0 rclone copy nahravky:/ /mnt/disk/moj@gmail.com/ --no-update-modtime --drive-skip-gdocs >> /var/log/rclone/nahravky.log
+    # nahratie novych suborov na cloud
+    */5 14 * * 0 rclone sync /mnt/disk/moj@gmail.com/audio/ nahravky:/audio/ --no-update-modtime --drive-skip-gdocs >> /var/log/rclone/nahravky.log
 
 Taktýmto spôsobom cez rclone je možné synchronizovať aj viaceré priečinky do rôznych google účtov z jedného počítača, čo nie je možné cez klasický google disk client.
+

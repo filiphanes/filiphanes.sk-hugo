@@ -28,5 +28,13 @@ z neho cez router do ostatných počítačov. Táto možnosť sa ukázala funkč
 Bolo treba na serverovom ubuntu nakonfigurovať modem cez príkazový riadok
 a cez iptables vyzdieľať internet na lokálnu sieť.
 
+Iptables nastavenia:
+
+    #!/bin/bash
+    sudo iptables -A FORWARD -o usbltemodem -i eth0 -m conntrack --ctstate NEW -j ACCEPT
+    sudo iptables -A FORWARD -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+    sudo iptables -t nat -F POSTROUTING
+    sudo iptables -t nat -A POSTROUTING -o usbltemodem -j MASQUERADE
+
 Na routeri bolo treba presmerovať všetku internetovú komunikáciu na lokálny
 server. Nakoniec sa to podarilo.
