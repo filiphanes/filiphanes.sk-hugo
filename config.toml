@@ -6,7 +6,7 @@ paginate = 10
 DefaultContentLanguage = "sk"
 languageCode = "sk-sk"
 copyright = "© 2017-2019 Filip Hanes"
-googleAnalytics = "UA-67252886-2" # delete or comment to disable Google Analytics JS generation
+# googleAnalytics = "UA-67252886-2" # delete or comment to disable Google Analytics JS generation
 disqusShortname = "filiphanes-sk" #delete or comment to disable Disqus comments
 
 [author]
